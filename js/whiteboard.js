@@ -111,7 +111,6 @@ function onTouchStart(evt) {
 }
 function onTouchEnd(e) {
     if (drawing) {
-        emitStroke();
         strokeHistory.push({ vectors: currentStroke, colour: penColour })
         actionHistory.push(currentStroke)
         currentStroke = [];
