@@ -497,4 +497,4 @@ function loadfile(input) {
   reader.readAsText(input.files[0]);
 }
 
-// $('#help-modal').modal({show: true});
+$('#help-modal').modal({show: true});
