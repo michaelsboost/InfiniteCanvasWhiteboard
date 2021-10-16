@@ -396,7 +396,7 @@ function setDocumentTitle(colour) {
     if (colour == lightBackgroundColour) {
         document.title = 'Infinite Whiteboard';
     } else {
-        document.title = 'Infinite Whiteboard';
+        document.title = 'Infinite Blackboard';
     }
 }
 function createDot(socketId) {
